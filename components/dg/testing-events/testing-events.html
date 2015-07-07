@@ -1,0 +1,24 @@
+<dg:tests:parent></dg:tests:parent>
+<div class="container">
+	<h1>Testing Famous Framework Events</h1>
+	<table class="table table-bordered table-hover">
+		<thead>
+			<th>Event triggered by</th>
+			<th>Is received by</th>
+		</thead>
+		<tbody class='table-body'></tbody>
+	</table>
+	<h4>Notes</h4>
+	<ul>
+		<li>
+			Events triggered by behavior $self can also be registered within the $public directive. 
+			However, if both $public and $private directives exist, events registered to the $private directive
+			will take precedence.
+		</li>
+		<li>
+			To effectively run $dispatcher.emit() from within the grandchild view we have to first broadcast a 
+			<code>parent-ready</code> event from the parent component when it loads. We can then listen
+			to the <code>parent-ready</code> event inside the grandchild view and run $dispatcher.emit() from its callback.
+		</li>
+	</ul>
+</div>
