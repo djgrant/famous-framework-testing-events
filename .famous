@@ -1,1 +1,1 @@
-{"scripts":{"deploy-folder":"public/build/dg~parent","deploy":[],"setup":[["install"],["run","local-only-bootstrap","--","--watchAfterBuild=no"]]}}
+{"scripts":{"deploy-folder":"public/build/dg~testing-events","deploy":[],"setup":[["install"],["run","local-only-bootstrap","--","--watchAfterBuild=no"]]},"container_id":"3c16092b-5b79-4241-b1d0-0f8c50b307e4","container_name":"famous-seed-a7103050-24fd-11e5-85a7-6d4a5e8a72db","widget_name":"famous-seed-a7103050-24fd-11e5-85a7-6d4a5e8a72db","widget_id":"c27f9069-f6b3-4a39-b6fb-3eea4bd3ed78"}
