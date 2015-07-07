@@ -9,3 +9,8 @@
 		padding: 0 30px;
 	}
 }
+
+h1 + a {
+	display: block;
+	margin: -1em 0 2em
+}
