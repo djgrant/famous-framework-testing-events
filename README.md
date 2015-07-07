@@ -2,7 +2,7 @@
 
 Built to help me understand how events are being passed around in the famous framework.
 
-The app runs a bunch of events and logs out to screen the ones that are registered in a nice table.
+The app runs a bunch of events and logs in a nice table the ones that are registered.
 
 - - - -
 
